@@ -1,0 +1,53 @@
+{
+  "documents": {
+    "1": {
+      "metadata": {
+        "title": "Example Document"
+      },
+      "data": [
+        {
+          "type": "H1",
+          "text": "Example Document"
+        },
+        {
+          "type": "H2",
+          "text": "Abstract"
+        },
+        {
+          "type": "TextBlock",
+          "text": "The Libra Blockchain is a decentralized, programmable database designed to support a low-volatility cryptocurrency that will have the ability to serve as an efficient medium of exchange for billions of people around the world. We present a proposal for the Libra protocol, which implements the Libra Blockchain and aims to create a financial infrastructure that can foster innovation, lower barriers to entry, and improve access to financial services. To validate the design of the Libra protocol, we have built an open-source prototype implementation — *Libra Core* — in anticipation of a global collaborative effort to advance this new ecosystem.",
+          "annotations": [
+            {
+              "type": "Annotation1",
+              "span": "0:227",
+              "text": "Some annotation comment here"
+            },
+            {
+              "type": "Annotation2",
+              "span": "254:452",
+              "text": "An example of a particularly long annotation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non malesuada elit, ac euismod tellus. Proin ornare justo ac sem commodo pulvinar. Ut pellentesque aliquet ligula. Duis mollis tristique tellus, ornare efficitur nulla pellentesque nec. Nullam at purus sit amet arcu pulvinar aliquet ut ac velit. Pellentesque eu libero placerat, sagittis neque nec, sollicitudin massa. Nam sed ligula dui. Nunc tempus diam sed feugiat aliquam. Donec efficitur tempor sem vel efficitur. In hac habitasse platea dictumst. Sed sit amet lacus turpis. Curabitur tincidunt sapien et dolor pellentesque, et dapibus velit egestas. Ut cursus nunc eget urna consequat, non feugiat ipsum dictum.Cras sagittis nisl eget tincidunt fringilla. Nunc lacinia venenatis tincidunt. Aenean pharetra elit rhoncus libero suscipit, in vehicula quam faucibus. Mauris mollis viverra erat eu sagittis. Praesent at tortor finibus, maximus elit vitae, ultricies elit. Sed rutrum, nisl in varius viverra, turpis risus mattis enim, id efficitur orci erat sit amet lorem. Aenean accumsan sodales volutpat. Morbi eget mi orci. Praesent nec diam sem. Maecenas commodo ligula sed ante dapibus, non suscipit diam porta.Suspendisse pulvinar eu metus vitae semper. Proin sit amet volutpat dui. Nullam in est fringilla, dapibus ante a, molestie libero. In hac habitasse platea dictumst. Etiam et nisi ante. Etiam non mi ac enim tincidunt egestas id nec odio. Maecenas tempus vulputate pretium. Fusce vestibulum tincidunt hendrerit. Maecenas feugiat velit et luctus maximus. Morbi vel consequat turpis. Ut ornare quis ante varius pellentesque. Sed placerat neque eros, sed fermentum ex sagittis sed. Aenean non vulputate velit, nec luctus ex. Nam congue, sapien non ullamcorper laoreet, lacus augue placerat quam, suscipit viverra dolor mauris vitae lectus. Maecenas tortor urna, tempus a quam non, ultrices tempor ante."
+            },
+            {
+              "type": "Highlight",
+              "span": "499:565"
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "The Libra protocol allows a set of replicas — referred to as validators — from different authorities to jointly maintain a database of programmable resources. These resources are owned by different user accounts authenticated by public key cryptography and adhere to custom rules specified by the developers of these resources. Validators process transactions and interact with each other to reach consensus on the state of the database. Transactions are based on predefined and, in future versions, user-defined smart contracts in a new programming language called *Move.*",
+          "annotations": [
+            {
+              "type": "Highlight",
+              "span": "62:72"
+            },
+            {
+              "type": "Annotation1",
+              "text": "Some annotation or comment here"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
